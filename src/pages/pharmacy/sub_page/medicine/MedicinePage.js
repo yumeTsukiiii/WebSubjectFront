@@ -26,16 +26,7 @@ const MedicinePage = (props) => {
 
     const [dateCondition, setDateCondition] = useState(new Date());
 
-    const [medicineInfo, setMedicineInfo] = useState([
-        {
-            id: 1,
-            name: '🐂🍺',
-            price: 23,
-            amount: 1,
-            doctor: '傻逼医生',
-            createTime: '2019-01-23',
-        }
-    ]);
+    const [medicineInfo, setMedicineInfo] = useState([]);
 
     useEffect(() => {
         setFadeIn(true);
@@ -59,8 +50,8 @@ const MedicinePage = (props) => {
                 name: item.name,
                 price: item.price,
                 doctor: item.doctor,
-                createTime: item.create_time,
-                amount: item.amount
+                createTime: item.createtime,
+                dosage: item.dosage
             })))
         }).catch(data => {
             handleNetCodeMessage(data, message => {
@@ -73,26 +64,13 @@ const MedicinePage = (props) => {
         distributionRepository.medicine({
             id: medicineInfo.map(item => item.id)
         }).then(data => {
-            changeDrugStatus()
+            showSuccessMessage(ctx, "发药成功")
         }).catch(data => {
             handleNetCodeMessage(data, message => {
                 showErrorMessage(ctx, message);
             })
         })
     };
-
-    const changeDrugStatus = () => {
-        paymentRepository.changeDrugStatus({
-            info: medicineInfo.map(item => item.id)
-        }).then(data => {
-            showSuccessMessage(ctx, "发药成功")
-        }).catch(data => {
-            handleNetCodeMessage(data, message => {
-                showErrorMessage(ctx, message)
-            })
-        })
-    };
-
 
     return (
         <Fade in={fadeIn}>

@@ -48,8 +48,7 @@ const MedicineTable = (props) => {
     const columns = [
         { title: '药品名称', field: 'name' },
         { title: '单价', field: 'price' },
-        { title: '数量', field: 'amount' },
-        { title: '单价', field: 'price' },
+        { title: '数量', field: 'dosage' },
         { title: '开立医生', field: 'doctor' },
         { title: '开立时间', field: 'createTime' },
     ];
@@ -72,7 +71,7 @@ const MedicineTable = (props) => {
                     icon: Done,
                     tooltip: '发药',
                     onClick: (event, rowData) => {
-                        props.onCharge(rowData)
+                        props.onMedicine(rowData)
                     }
                 }
             ]}
@@ -86,7 +85,7 @@ MedicineTable.propTypes = {
             id: PropTypes.number.isRequired,
             name: PropTypes.string.isRequired,
             price: PropTypes.number.isRequired,
-            amount: PropTypes.number.isRequired,
+            dosage: PropTypes.number.isRequired,
             doctor: PropTypes.string.isRequired,
             createTime: PropTypes.string.isRequired,
         }

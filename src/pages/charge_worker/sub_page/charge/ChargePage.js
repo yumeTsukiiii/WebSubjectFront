@@ -231,8 +231,8 @@ const ChargePage = (props) => {
                                     medicalNumber: inputsValue.medicalNumber,
                                     patientName: inputsValue.patientName,
                                     shouldPay: chosenChargesInfo.length === 0 ? 0 :
-                                        chosenChargesInfo.map(item => item.price)
-                                            .reduce((pre, cur) => pre + cur)
+                                        chosenChargesInfo
+                                            .reduce((pre, cur) => pre.price * pre.dosage + cur.price * pre.dosage)
                                 }
                             }
                             payMethodItems={payMethodItems}/>

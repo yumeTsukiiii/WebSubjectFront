@@ -1,12 +1,97 @@
-import React from 'react';
+import React, {useReducer} from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
+import {blue} from "@material-ui/core/colors";
+import { ThemeProvider } from '@material-ui/styles';
+import installKtExtensions from "./util/kt-extensions";
+import DateFnsUtils from "@date-io/date-fns";
+import {
+    MuiPickersUtilsProvider,
+} from "@material-ui/pickers";
+import GlobalContext from './store/context';
+import {tipReducer} from "./store/reducer";
+import {SET_MESSAGE} from "./store/action";
+import LoadingSnackbar from "./components/LoadingSnackbar";
+import MessageSnackbar from "./components/MessageSnackbar";
+import ReactIcon from './assets/imgs/react-icon.png'
+import './index.css'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+//一些很有用的扩展函数
+installKtExtensions();
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const theme = createMuiTheme({
+   palette: {
+       primary: blue
+   }
+});
+
+const ThemedApp = () => {
+    return (
+        <ThemeProvider theme={theme}>
+            <App/>
+        </ThemeProvider>
+    );
+};
+
+const WithPickerApp = () => {
+    return (
+        <MuiPickersUtilsProvider utils={DateFnsUtils}>
+            <ThemedApp/>
+        </MuiPickersUtilsProvider>
+    )
+};
+
+const WithGlobalStateApp = () => {
+
+    const [globalState, globalDispatch] = useReducer(tipReducer, {
+        loadingMessage: {
+            isLoading: false,
+            message: '加载中'
+        },
+        snackbarMessage: {
+            open: false,
+            message: '',
+            type: 'success',
+            onClose: () => {
+                globalDispatch({
+                    type: SET_MESSAGE,
+                    snackbarMessage: {
+                        ...globalState.snackbarMessage,
+                        open: false
+                    }
+                })
+            }
+        },
+        diagnosis: [
+            {
+                reservationId: -100
+            }
+        ],
+        prescription: [
+            {
+                reservationId: -100
+            }
+        ]
+    });
+
+    return (
+        <GlobalContext.Provider value={{
+            state: globalState, dispatch: globalDispatch
+        }}>
+            <WithPickerApp/>
+            <LoadingSnackbar
+                open={globalState.loadingMessage.isLoading}
+                message={globalState.loadingMessage.message}
+                />
+            <MessageSnackbar
+                open={globalState.snackbarMessage.open}
+                message={globalState.snackbarMessage.message}
+                type={globalState.snackbarMessage.type}
+                onClose={globalState.snackbarMessage.onClose}/>
+            <img src={ReactIcon} className={"rotate-react"}/>
+        </GlobalContext.Provider>
+    )
+};
+
+ReactDOM.render(<WithGlobalStateApp/>, document.getElementById('root'));

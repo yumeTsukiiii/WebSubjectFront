@@ -1,0 +1,16 @@
+@keyframes snow{
+    0% {
+        background-position: 0 0, 0 0;
+    }
+    100% {
+        background-position: 500px 1000px, 500px 500px;
+    }
+}
+@-webkit-keyframes snow{
+    0% {
+        background-position: 0 0, 0 0;
+    }
+    100% {
+        background-position: 500px 1000px, 500px 500px;
+    }
+}

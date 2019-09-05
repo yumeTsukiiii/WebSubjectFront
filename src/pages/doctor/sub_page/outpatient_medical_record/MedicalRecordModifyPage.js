@@ -339,6 +339,7 @@ const MedicalRecordModifyPage = (props) => {
         }).then(data => {
             showSuccessMessage(ctx, "提交成功");
             removeDiagnosis(ctx, props.patient.reservationId);
+            setDiseaseDiagnosis([]);
             props.onDiagnosisCommitSuccess && props.onDiagnosisCommitSuccess(props.patient);
         }).catch(data => {
             handleNetCodeMessage(data, message => {

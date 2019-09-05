@@ -5,6 +5,9 @@ import InputAdornment from "@material-ui/core/InputAdornment";
 import SearchIcon from '@material-ui/icons/Search';
 import ClearIcon from '@material-ui/icons/Clear';
 
+/**
+ * 具有清空等操作的搜索TextView
+ * */
 const SearchBar = (props) => {
 
     const [searchValue, setSearchValue] = useState('');

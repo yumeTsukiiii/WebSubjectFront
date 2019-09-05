@@ -8,7 +8,7 @@ function login({ username, password }) {
 }
 
 function logout() {
-    return axios.get('/auth/logout').then(handleResponse)
+    return axios.post('/auth/logout').then(handleResponse)
 }
 
 export default {

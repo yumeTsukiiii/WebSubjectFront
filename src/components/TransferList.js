@@ -44,6 +44,9 @@ function union(a, b) {
     return [...a, ...not(b, a)];
 }
 
+/**
+ * 该组件详情见material-ui官网
+ * */
 const TransferList = (props) => {
     const classes = useStyles();
     const [checked, setChecked] = React.useState([]);

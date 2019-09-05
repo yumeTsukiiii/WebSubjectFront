@@ -25,6 +25,10 @@ const useStyles = makeStyles(theme => ({
     }
 }));
 
+/**
+ * 用于控制显示特定文字提示消息的Snackbar
+ * 有Success信息和Error信息两种，可以做扩展
+ * */
 const MessageSnackbar = (props) => {
 
     const classes = useStyles();

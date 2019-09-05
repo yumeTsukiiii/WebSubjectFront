@@ -64,6 +64,7 @@ const MedicinePage = (props) => {
         distributionRepository.medicine({
             id: medicineInfo.map(item => item.id)
         }).then(data => {
+            setMedicineInfo([]);
             showSuccessMessage(ctx, "发药成功")
         }).catch(data => {
             handleNetCodeMessage(data, message => {

@@ -95,10 +95,15 @@ const inputTypesMap = {
 
 const useStyles = makeStyles(theme => ({
     defaultMarginTop: {
-        marginTop: theme.spacing(4)
+        marginTop: theme.spacing(3)
     }
 }));
 
+/**
+ * 自定义组件，用于生成符合数据描述的Inputs布局
+ * 支持的InputsComponent以及属性如上inputsTypeMap定义，
+ * 属性具体定义参考material-ui官网
+ * */
 const GridInputs = (props) => {
 
     const classes = useStyles();

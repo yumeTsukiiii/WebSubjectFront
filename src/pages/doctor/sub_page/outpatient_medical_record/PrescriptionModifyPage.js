@@ -69,29 +69,14 @@ const PrescriptionModifyPage = (props) => {
     //搜索到的药品
     const [searchedDrug, setSearchedDrug] = useState([]);
     //搜索到的模版
-    const [searchedTemplate, setSearchedTemplate] = useState([
-        {
-            name: 'demo模版',
-            scope: '全院',
-            details: [
-                {
-                    name: '某药品',
-                    specification: '爱咋用咋用',
-                    usage: '= =',
-                    dosage: 1,
-                    frequency: 'emm',
-                    price: 0
-                }
-            ]
-        }
-    ]);
+    const [searchedTemplate, setSearchedTemplate] = useState([]);
     //选择的模版
     const [chosenTemplate, setChosenTemplate] = useState(null);
     //选择好的药品
     const [chosenDrug, setChosenDrug] = useState([]);
     //当前编辑中的处方
     const [prescriptions, setPrescriptions] = useState([{
-        name: '某处方',
+        name: '处方一',
         detail: []
     }]);
     //当前选择中的处方名称

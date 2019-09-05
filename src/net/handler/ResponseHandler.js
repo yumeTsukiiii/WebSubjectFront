@@ -3,7 +3,8 @@ const errorMap = {
     "-3": '该用户不存在',
     '-4': '登录已过期',
     "-5": '数据库出错',
-    "-10": '无过往病历'
+    "-10": '无过往病历',
+    "-9": '无收费信息'
 };
 
 export function handleResponse(resp) {

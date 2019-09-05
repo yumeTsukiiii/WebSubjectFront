@@ -12,6 +12,9 @@ const useStyles = makeStyles(theme => ({
     }
 }));
 
+/**
+ * 一个用于控制显示提示的加载中的Snackbar，可自定义加载文字
+ * */
 const LoadingSnackbar = (props) => {
 
     const classes = useStyles();

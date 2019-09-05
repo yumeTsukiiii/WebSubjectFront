@@ -8,12 +8,19 @@ import GlobalContext from "../../store/context";
 import {AuthRepository} from "../../net/repo/repository";
 import IconButton from "@material-ui/core/IconButton";
 import ExitIcon from "@material-ui/icons/ExitToApp";
+import {handleNetCodeMessage} from "../../net/handler/ResponseHandler";
 
 const PharmacyPage = (props) => {
 
     const basePath = '/pharmacy';
 
+    const [isLogout, setIsLogout] = useState(false);
+
     const [fadeIn, setFadeIn] = useState(false);
+
+    const ctx = useContext(GlobalContext);
+
+    const authRepository = AuthRepository.of('remote');
 
     const drawerNavigatorsConfig = [
         {
@@ -32,10 +39,20 @@ const PharmacyPage = (props) => {
     }, []);
 
     const logout = () => {
-        setFadeIn(false);
-        setTimeout(() => {
-            props.history.replace("/");
-        }, 300);
+        setIsLogout(true);
+        authRepository.logout().then(data => {
+            showSuccessMessage(ctx, '登出成功', () => {
+                setFadeIn(false);
+                setTimeout(() => {
+                    props.history.replace("/");
+                }, 300);
+            })
+        }).catch(data => {
+            setIsLogout(false);
+            handleNetCodeMessage(data, message => {
+                showErrorMessage(ctx, message)
+            });
+        });
     };
 
     return (
@@ -47,7 +64,7 @@ const PharmacyPage = (props) => {
                     basePath={basePath}
                     toolBarAction={
                         () => (
-                            <IconButton onClick={logout}>
+                            <IconButton onClick={logout} disabled={isLogout}>
                                 <ExitIcon style={{color: "white"}}/>
                             </IconButton>
                         )

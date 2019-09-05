@@ -7,8 +7,18 @@ import ChargePage from "./sub_page/charge/ChargePage";
 import IconButton from "@material-ui/core/IconButton";
 import ExitIcon from '@material-ui/icons/ExitToApp';
 import {Fade} from "@material-ui/core";
+import GlobalContext from "../../store/context";
+import {AuthRepository} from "../../net/repo/repository";
+import {handleNetCodeMessage} from "../../net/handler/ResponseHandler";
+import {showErrorMessage, showSuccessMessage} from "../../store/default";
 
 const ChargeWorkerPage = (props) => {
+
+    const [isLogout, setIsLogout] = useState(false);
+
+    const ctx = useContext(GlobalContext);
+
+    const authRepository = AuthRepository.of('remote');
 
     const basePath = "/charge_worker";
 
@@ -54,10 +64,21 @@ const ChargeWorkerPage = (props) => {
      * 有个小bug，这个地方用全局ctx会导致整个页面刷新
      * */
     const logout = () => {
-        setFadeIn(false);
-        setTimeout(() => {
-            props.history.replace("/");
-        }, 300);
+        setIsLogout(true);
+        authRepository.logout().then(data => {
+            showSuccessMessage(ctx, '登出成功', () => {
+                setFadeIn(false);
+                setTimeout(() => {
+                    props.history.replace("/");
+                }, 300);
+            })
+        }).catch(data => {
+            setIsLogout(false);
+            handleNetCodeMessage(data, message => {
+                showErrorMessage(ctx, message)
+            });
+        });
+
     };
 
     return (
@@ -69,7 +90,7 @@ const ChargeWorkerPage = (props) => {
                     history={props.history}
                     toolBarAction={
                         () => (
-                            <IconButton onClick={logout}>
+                            <IconButton onClick={logout} disabled={isLogout}>
                                 <ExitIcon style={{color: "white"}}/>
                             </IconButton>
                         )

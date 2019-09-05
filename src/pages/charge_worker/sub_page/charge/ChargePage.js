@@ -124,12 +124,17 @@ const ChargePage = (props) => {
                     name: data.name,
                     itemName: item.name,
                     price: item.price,
-                    amount: item.dosage,
+                    amount: parseInt(item.dosage),
                     createTime: item.createtime,
                     status: status
                 }
             }))
         }).catch(data => {
+            setInputValue({
+                patientName: '', //病人姓名
+                identifyNumber: '', //病人身份证号
+                homeAddress: '', //病人家庭住址
+            });
             handleNetCodeMessage(data, message => {
                 showErrorMessage(ctx, message)
             });
@@ -179,7 +184,6 @@ const ChargePage = (props) => {
     const initPaymentMethods = () => {
         paymentRepository.getPaymentMethods()
             .then(data => {
-                console.log(data);
                 setPayMethodItems(data.map(item => ({
                     value: item.id,
                     text: item.name
@@ -228,11 +232,12 @@ const ChargePage = (props) => {
                         <BillDialogContent
                             patientInfo={
                                 {
-                                    medicalNumber: inputsValue.medicalNumber,
+                                    medicalNumber: medicalNumber,
                                     patientName: inputsValue.patientName,
                                     shouldPay: chosenChargesInfo.length === 0 ? 0 :
                                         chosenChargesInfo
-                                            .reduce((pre, cur) => pre.price * pre.dosage + cur.price * pre.dosage)
+                                            .map(item => item.price * item.amount)
+                                            .reduce((pre, cur) => (pre + cur), 0)
                                 }
                             }
                             payMethodItems={payMethodItems}/>

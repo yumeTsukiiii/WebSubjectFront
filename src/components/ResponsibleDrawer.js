@@ -5,6 +5,9 @@ import {makeStyles, useTheme} from "@material-ui/styles";
 import PropTypes from 'prop-types';
 import SingleLevelIconList from "./SingleLevelIconList";
 
+/**
+ * 自适应网页宽度的Drawer，会在网页宽度过小时收起
+ * */
 const ResponsibleDrawer = (props) => {
 
     const useInnerStyles = makeStyles(theme => ({

@@ -1,13 +1,23 @@
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import InboxIcon from "@material-ui/icons/Inbox";
 import PageWithDrawerNavigator from "../../components/PageWithDrawerNavigator";
 import MedicalRecord from "./sub_page/outpatient_medical_record/MedicalRecordPage";
 import IconButton from "@material-ui/core/IconButton";
 import ExitIcon from "@material-ui/icons/ExitToApp";
 import {Fade} from "@material-ui/core";
+import GlobalContext from "../../store/context";
+import {AuthRepository} from "../../net/repo/repository";
+import {showErrorMessage, showSuccessMessage} from "../../store/default";
+import {handleNetCodeMessage} from "../../net/handler/ResponseHandler";
 const DoctorPage = (props) => {
 
     const basePath = '/doctor';
+
+    const [isLogout, setIsLogout] = useState(false);
+
+    const ctx = useContext(GlobalContext);
+
+    const authRepository = AuthRepository.of('remote');
 
     const [fadeIn, setFadeIn] = useState(false);
 
@@ -28,10 +38,20 @@ const DoctorPage = (props) => {
     }, []);
 
     const logout = () => {
-        setFadeIn(false);
-        setTimeout(() => {
-            props.history.replace("/");
-        }, 300);
+        setIsLogout(true);
+        authRepository.logout().then(data => {
+            showSuccessMessage(ctx, '登出成功', () => {
+                setFadeIn(false);
+                setTimeout(() => {
+                    props.history.replace("/");
+                }, 300);
+            })
+        }).catch(data => {
+            setIsLogout(false);
+            handleNetCodeMessage(data, message => {
+                showErrorMessage(ctx, message)
+            });
+        });
     };
 
     return (
@@ -43,7 +63,7 @@ const DoctorPage = (props) => {
                     basePath={basePath}
                     toolBarAction={
                         () => (
-                            <IconButton onClick={logout}>
+                            <IconButton onClick={logout} disabled={isLogout}>
                                 <ExitIcon style={{color: "white"}}/>
                             </IconButton>
                         )

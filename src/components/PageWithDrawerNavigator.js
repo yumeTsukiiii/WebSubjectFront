@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import ResponsibleAppBar from "./ResponsibleAppBar";
 import ResponsibleDrawer from "./ResponsibleDrawer";
 import {makeStyles} from "@material-ui/styles";
@@ -17,6 +17,10 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
+/**
+ * 一个固定布局的组件，通过数据描述生成具有侧边导航和右侧页面切换的布局页面
+ * 可选AppBar中的右侧Action
+ * */
 const PageWithDrawerNavigator = (props) => {
 
     const drawerWidth = props.drawerWidth;
@@ -44,6 +48,9 @@ const PageWithDrawerNavigator = (props) => {
             icon: pageConfig.icon
         }));
 
+    /**
+     * 根据route进行右侧子页面跳转
+     * */
     const navigateToSubPage = (route) => {
         if (props.navigateDelay === 0) {
             props.history.replace(`${props.basePath}${route}`);
@@ -101,22 +108,22 @@ const PageWithDrawerNavigator = (props) => {
 };
 
 PageWithDrawerNavigator.propTypes = {
-    history: PropTypes.object.isRequired,
-    drawerWidth: PropTypes.number,
-    basePath: PropTypes.string,
+    history: PropTypes.object.isRequired, //由于该组件为BrowserRouter的孙子组件，所以需要传入history供其子组件使用
+    drawerWidth: PropTypes.number, //左侧导航栏宽度
+    basePath: PropTypes.string, //导航路由前缀
     drawerNavigators: PropTypes.arrayOf(PropTypes.shape({
-        text: PropTypes.string.isRequired,
+        text: PropTypes.string.isRequired, //导航项的名称
         navigateConfig: PropTypes.shape({
-            title: PropTypes.string.isRequired,
-            route: PropTypes.string.isRequired,
-            component: PropTypes.node.isRequired
+            title: PropTypes.string.isRequired, //该导航项在AppBar上的title
+            route: PropTypes.string.isRequired, //该导航项的路由
+            component: PropTypes.node.isRequired //该导航项对应渲染的组件
         }).isRequired,
-        icon: PropTypes.node
+        icon: PropTypes.node //导航项的icon
     })).isRequired,
-    toolBarAction: PropTypes.node,
-    beforeNavigate: PropTypes.func,
-    afterNavigate: PropTypes.func,
-    navigateDelay: PropTypes.number
+    toolBarAction: PropTypes.node, //AppBar右侧可选导航
+    beforeNavigate: PropTypes.func, //子页面跳转前函数
+    afterNavigate: PropTypes.func, //子页面跳转后函数
+    navigateDelay: PropTypes.number //页面跳转延迟
 };
 
 PageWithDrawerNavigator.defaultProps = {

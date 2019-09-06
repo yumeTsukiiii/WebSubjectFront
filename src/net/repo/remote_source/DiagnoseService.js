@@ -62,6 +62,18 @@ function getDrugsByName({drugName}) {
     }).then(handleResponse);
 }
 
+function getPrescriptionsByReservationId({reservationId}) {
+    return axios.post("/diagnosis/patient/prescription", {
+        reservation_id: reservationId
+    }).then(handleResponse)
+}
+
+function getPrescriptionDetail({prescriptionId}) {
+    return axios.post("/diagnosis/patient/prescription/detail", {
+        prescription_id: prescriptionId
+    }).then(handleResponse)
+}
+
 export default {
     getPatientInfoByMedicalNumber,
     getPrescriptionTemplateByName,
@@ -71,5 +83,7 @@ export default {
     getRecentMedicalRecordByCode,
     getRegisteredItemsByNowaday,
     commitDiagnose,
-    commitPrescription
+    commitPrescription,
+    getPrescriptionsByReservationId,
+    getPrescriptionDetail
 }

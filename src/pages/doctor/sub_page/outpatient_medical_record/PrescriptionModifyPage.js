@@ -89,6 +89,23 @@ const PrescriptionModifyPage = (props) => {
         setContentHeight(calculateContentHeight());
     }, []);
 
+    useEffect(() => {
+        setPrescriptions([]);
+        requestPrescriptions();
+    }, [props.patient]);
+
+    function requestPrescriptions() {
+        diagnoseRepository.getPrescriptionsByReservationId({
+            reservationId: props.patient.reservationId
+        }).then(data => {
+
+        }).catch(data => {
+            handleNetCodeMessage(data, message => {
+                showErrorMessage(ctx, message)
+            })
+        })
+    }
+
     const calculateContentHeight = () => {
         return Boolean(props.prescriptionContentHeight).yes(height => height)
             .otherwise(() => (

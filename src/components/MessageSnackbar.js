@@ -3,20 +3,9 @@ import PropTypes from 'prop-types';
 import Snackbar from "@material-ui/core/Snackbar";
 import {SnackbarContent} from "@material-ui/core";
 import DoneIcon from '@material-ui/icons/Done'
-import ErrorIcon from '@material-ui/icons/Error';
+import ErrorIcon from '@material-ui/icons/Clear';
 import {makeStyles} from "@material-ui/styles";
 import {green} from "@material-ui/core/colors";
-
-const snackbarTypeColor = {
-    error: {
-        color: 'red',
-        icon: <DoneIcon/>
-    },
-    success: {
-        color: green[500],
-        icon: <ErrorIcon/>
-    }
-};
 
 const useStyles = makeStyles(theme => ({
     message: {
@@ -24,6 +13,17 @@ const useStyles = makeStyles(theme => ({
         alignItems: 'center',
     }
 }));
+
+const snackbarTypeColor = {
+    error: {
+        color: 'red',
+        icon: <ErrorIcon/>
+    },
+    success: {
+        color: green[500],
+        icon: <DoneIcon/>
+    }
+};
 
 /**
  * 用于控制显示特定文字提示消息的Snackbar

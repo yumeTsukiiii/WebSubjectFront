@@ -25,9 +25,7 @@ const RegisteredActionTile = (props) => {
     return (
         <Grid container>
             <TextField
-                label={'发票号'}
-                value={props.billNumber}
-                disabled/>
+                label={'发票号'}/>
             <Button
                 color={"primary"}
                 variant="contained"
@@ -42,7 +40,15 @@ const RegisteredActionTile = (props) => {
                 onClick={props.refreshInfoAction}
                 className={`${classes.defaultMarginHorizontal} ${classes.defaultPaddingRight}`}>
                 <RefreshIcon className={classes.defaultMarginHorizontal}/>
-                刷新
+                获取发票号
+            </Button>
+            <Button
+                color={"primary"}
+                variant={"contained"}
+                onClick={props.clearAction}
+                className={`${classes.defaultMarginHorizontal} ${classes.defaultPaddingRight}`}>
+                <ClearIcon className={classes.defaultMarginHorizontal}/>
+                清空
             </Button>
         </Grid>
     );
@@ -51,7 +57,8 @@ const RegisteredActionTile = (props) => {
 RegisteredActionTile.propTypes = {
     billNumber: PropTypes.string.isRequired,
     registeredAction: PropTypes.func.isRequired,
-    refreshInfoAction: PropTypes.func.isRequired
+    refreshInfoAction: PropTypes.func.isRequired,
+    clearAction: PropTypes.func.isRequired
 };
 
 export default RegisteredActionTile;

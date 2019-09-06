@@ -208,8 +208,8 @@ const PrescriptionTable = (props) => {
                 actionsColumnIndex: -1,
                 search: false,
                 selection: selected,
-                pageSize: 2,
-                pageSizeOptions:[2, 4]
+                pageSize: 5,
+                pageSizeOptions:[1, 5]
             }}
             actions={actions}
             editable={{

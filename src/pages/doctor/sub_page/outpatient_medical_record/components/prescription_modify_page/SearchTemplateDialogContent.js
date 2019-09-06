@@ -71,7 +71,7 @@ const SearchTemplateDialogContent = (props) => {
         setExpanded(isExpanded ? panel : false);
     };
 
-    const [chosenTemplateId, setChosenTemplateId] = useState(-1);
+    const [chosenTemplateId, setChosenTemplateId] = useState('');
 
     return (
         <Grid
@@ -116,11 +116,11 @@ const SearchTemplateDialogContent = (props) => {
                                     }}
                                     actions={[
                                         {
-                                            icon: chosenTemplateId === template.id ? PrimarySelect : Select,
+                                            icon: chosenTemplateId === template.name ? PrimarySelect : Select,
                                             tooltip: '选择该模版',
                                             isFreeAction: true,
                                             onClick: () => {
-                                                setChosenTemplateId(template.id);
+                                                setChosenTemplateId(template.name);
                                                 props.onChooseTemplate({...template})
                                             }
                                         }

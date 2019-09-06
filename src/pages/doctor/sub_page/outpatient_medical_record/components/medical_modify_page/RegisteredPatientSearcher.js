@@ -75,7 +75,8 @@ const RegisteredPatientSearcher = (props) => {
 RegisteredPatientSearcher.propTypes = {
     patients: PropTypes.arrayOf(PropTypes.shape({
         name: PropTypes.string.isRequired,
-        status: PropTypes.number.isRequired
+        status: PropTypes.number.isRequired,
+        patientCode: PropTypes.string.isRequired
     })).isRequired,
     onChange: PropTypes.func.isRequired,
     onSearch: PropTypes.func,

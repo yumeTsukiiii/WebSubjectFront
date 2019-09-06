@@ -427,22 +427,7 @@ const RegisteredPage = (props) => {
     };
 
     const handleRefreshInfo = () => {
-        initDefaultMedicalNumber().then(result => {
-            if (result) {
-                setInputValue({
-                    ...inputsValue,
-                    medicalNumber: defaultMedicalNumber, //病历号
-                    patientName: '', //病人姓名
-                    sex: '男', //病人性别
-                    age: 0, //病人年龄
-                    birthday: new Date(), //病人出生日期
-                    identifyNumber: '', //病人身份证号
-                    homeAddress: '', //病人家庭住址
-                    visitDate: new Date(), //看诊日期
-                    noon: true
-                });
-            }
-        });
+        initDefaultMedicalNumber();
     };
 
     const generateBillRecord = () => {
@@ -523,11 +508,7 @@ const RegisteredPage = (props) => {
 
 
     const initAllReservationCodeAndDepartmentItems = () => {
-        initDefaultMedicalNumber().then(result => {
-            if (result) {
-                initDepartments();
-            }
-        });
+        initDepartments();
     };
 
     const initPaymentMethods = () => {
@@ -633,13 +614,33 @@ const RegisteredPage = (props) => {
         })
     };
 
+    function handleClearInfo() {
+        initDefaultMedicalNumber().then(result => {
+            if (result) {
+                setInputValue({
+                    ...inputsValue,
+                    medicalNumber: defaultMedicalNumber, //病历号
+                    patientName: '', //病人姓名
+                    sex: '男', //病人性别
+                    age: 0, //病人年龄
+                    birthday: new Date(), //病人出生日期
+                    identifyNumber: '', //病人身份证号
+                    homeAddress: '', //病人家庭住址
+                    visitDate: new Date(), //看诊日期
+                    noon: true
+                });
+            }
+        });
+    }
+
     return (
         <Fade in={fadeIn}>
             <div>
                 <RegisteredActionTile
                     billNumber={billNumber}
                     registeredAction={handleRegistered}
-                    refreshInfoAction={handleRefreshInfo}/>
+                    refreshInfoAction={handleRefreshInfo}
+                    clearAction={handleClearInfo}/>
                 <div style={{marginTop: theme.spacing(4)}}/>
                 <Typography variant={"subtitle1"}>
                     挂号信息

@@ -7,7 +7,8 @@ const BillDialogContent = (props) => {
     const [inputsValue, setInputValue] = useState({
         payMethod: props.payMethodItems[0].value, //收费方式
         returnPay: 0,
-        truePay: 0
+        truePay: 0,
+        billNumber: ''
     });
 
     useEffect(() => {
@@ -28,11 +29,16 @@ const BillDialogContent = (props) => {
         {
             type: 'TextField',
             label: '发票号',
-            value: '',
+            value: inputsValue.billNumber,
             xs: 6,
             sm: 6,
             md: 6,
-            disabled: true
+            onChange: ({target}) => {
+                setInputValue({
+                    ...inputsValue,
+                    billNumber: target.value
+                })
+            }
         },
         {
             type: 'TextField',

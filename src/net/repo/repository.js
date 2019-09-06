@@ -136,6 +136,14 @@ export class DiagnoseRepository {
         return this.source.getDrugsByName({drugName});
     }
 
+    getPrescriptionsByReservationId({reservationId}) {
+        return this.source.getPrescriptionsByReservationId({reservationId})
+    }
+
+    getPrescriptionDetail({prescriptionId}) {
+        return this.source.getPrescriptionDetail({prescriptionId})
+    }
+
 }
 
 export class DistributionRepository {

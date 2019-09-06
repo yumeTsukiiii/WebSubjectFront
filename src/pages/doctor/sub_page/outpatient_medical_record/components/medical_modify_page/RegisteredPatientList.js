@@ -61,7 +61,7 @@ const RegisteredPatientList = (props) => {
                                     button
                                     key={`${patient.name}-${index}`}>
                                     <ListItemText>
-                                        {patient.name}
+                                        {patient.patientCode + " - " + patient.name}
                                     </ListItemText>
                                     {
                                         (() => {
@@ -99,7 +99,7 @@ const RegisteredPatientList = (props) => {
                                             props.onPatientItemClick(patient)
                                         }}>
                                         <ListItemText>
-                                            {patient.name}
+                                            {patient.patientCode + " - " + patient.name}
                                         </ListItemText>
                                         {
                                             (() => {
@@ -124,6 +124,7 @@ const RegisteredPatientList = (props) => {
 
 RegisteredPatientList.propTypes = {
     patients: PropTypes.arrayOf(PropTypes.shape({
+        patientCode: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
         status: PropTypes.number.isRequired
     })).isRequired,

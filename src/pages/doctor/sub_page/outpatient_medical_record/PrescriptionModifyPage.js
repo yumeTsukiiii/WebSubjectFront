@@ -75,10 +75,7 @@ const PrescriptionModifyPage = (props) => {
     //选择好的药品
     const [chosenDrug, setChosenDrug] = useState([]);
     //当前编辑中的处方
-    const [prescriptions, setPrescriptions] = useState([{
-        name: '处方一',
-        detail: []
-    }]);
+    const [prescriptions, setPrescriptions] = useState([]);
     //当前选择中的处方名称
     const chosenPrescription = [];
     //当前添加药瓶中的处方
@@ -90,15 +87,45 @@ const PrescriptionModifyPage = (props) => {
     }, []);
 
     useEffect(() => {
-        setPrescriptions([]);
-        requestPrescriptions();
+        if (props.patient) {
+            setPrescriptions([]);
+            requestPrescriptions();
+        }
     }, [props.patient]);
 
-    function requestPrescriptions() {
+    /**
+     * 获取历史处方啦
+     * */
+    const requestPrescriptions = () => {
         diagnoseRepository.getPrescriptionsByReservationId({
             reservationId: props.patient.reservationId
         }).then(data => {
-
+            Promise.all(
+                data.map(item =>
+                    diagnoseRepository.getPrescriptionDetail({
+                        prescriptionId: item.id
+                    })
+                )
+            ).then(details => {
+                setPrescriptions(
+                    data.map((item, index) => ({
+                        name: item.name,
+                        detail: details[index].map(detailItem => ({
+                            id: detailItem.id,
+                            name: detailItem.name,
+                            specification: detailItem.specification,
+                            usage: detailItem.usage,
+                            dosage: detailItem.dosage,
+                            frequency: detailItem.frequency,
+                            price: detailItem.price
+                        }))
+                    }))
+                )
+            }).catch(data => {
+                handleNetCodeMessage(data, message => {
+                    showErrorMessage(ctx, message)
+                })
+            })
         }).catch(data => {
             handleNetCodeMessage(data, message => {
                 showErrorMessage(ctx, message)
@@ -190,6 +217,10 @@ const PrescriptionModifyPage = (props) => {
     const handleCommitPrescription = () => {
         if (!props.patient) {
             showErrorMessage(ctx, "请先选择病人");
+            return;
+        }
+        if (prescriptions.length === 0) {
+            showErrorMessage(ctx, "请先添加处方");
             return;
         }
         diagnoseRepository.commitPrescription({

@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14e43e2-d513-41b4-add0-2f3c6f1a5b01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/MessageSnackbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageSnackbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/repo/remote_source/DiagnoseService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/repo/remote_source/DiagnoseService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/repo/repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/repo/repository.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/charge_worker/sub_page/charge/component/BillInfoDialogContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/charge_worker/sub_page/charge/component/BillInfoDialogContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/RegisteredPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/RegisteredPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/components/RegisteredActionTile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/components/RegisteredActionTile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/RegisteredPatientList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/RegisteredPatientList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/RegisteredPatientSearcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/RegisteredPatientSearcher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/prescription_modify_page/PrescriptionTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/prescription_modify_page/PrescriptionTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/prescription_modify_page/SearchTemplateDialogContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/prescription_modify_page/SearchTemplateDialogContent.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,12 +18,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/MessageSnackbar.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+            <state relative-caret-position="111">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/repo/repository.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="143" column="43" selection-start-line="143" selection-start-column="43" selection-end-line="143" selection-end-column="43" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/repo/remote_source/DiagnoseService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="562">
+              <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/RegisteredPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="638" column="29" selection-start-line="638" selection-start-column="29" selection-end-line="638" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/components/RegisteredActionTile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/components/TransferList.js" />
         <option value="$PROJECT_DIR$/src/net/repo/remote_source/PaymentService.js" />
         <option value="$PROJECT_DIR$/src/pages/pharmacy/sub_page/medicine/MedicinePage.js" />
-        <option value="$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/components/RegisteredActionTile.js" />
         <option value="$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/RegisteredPage.js" />
         <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/prescription_modify_page/PrescriptionTable.js" />
         <option value="$PROJECT_DIR$/src/store/default.js" />
@@ -116,9 +152,10 @@
         <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/prescription_modify_page/SearchTemplateDialogContent.js" />
         <option value="$PROJECT_DIR$/src/pages/charge_worker/sub_page/charge/component/BillInfoDialogContent.js" />
         <option value="$PROJECT_DIR$/src/net/repo/remote_source/DiagnoseService.js" />
-        <option value="$PROJECT_DIR$/src/net/repo/repository.js" />
-        <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js" />
         <option value="$PROJECT_DIR$/src/components/MessageSnackbar.js" />
+        <option value="$PROJECT_DIR$/src/net/repo/repository.js" />
+        <option value="$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/components/RegisteredActionTile.js" />
+        <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js" />
       </list>
     </option>
   </component>
@@ -401,14 +438,17 @@
       <workItem from="1567643885444" duration="3620000" />
       <workItem from="1567661964033" duration="411000" />
       <workItem from="1567727072899" duration="2703000" />
+      <workItem from="1567818346358" duration="816000" />
+      <workItem from="1567843431023" duration="940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237811000" />
+    <option name="totallyTimeSpent" value="239567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2840028" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -722,26 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/components/RegisteredActionTile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/RegisteredPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="429" column="34" selection-start-line="429" selection-start-column="34" selection-end-line="429" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/repo/remote_source/PaymentService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -844,10 +864,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MessageSnackbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/RegisteredPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="638" column="29" selection-start-line="638" selection-start-column="29" selection-end-line="638" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/components/RegisteredActionTile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/repo/repository.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="143" column="64" selection-start-line="143" selection-start-column="64" selection-end-line="143" selection-end-column="64" />
+        <state relative-caret-position="179">
+          <caret line="143" column="43" selection-start-line="143" selection-start-column="43" selection-end-line="143" selection-end-column="43" />
           <folding>
             <element signature="e#0#60#0" expanded="true" />
           </folding>
@@ -856,8 +906,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/repo/remote_source/DiagnoseService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        <state relative-caret-position="562">
+          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -866,18 +916,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="137" column="4" lean-forward="true" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MessageSnackbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="111">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>

@@ -40,7 +40,7 @@ const RegisteredActionTile = (props) => {
                 onClick={props.refreshInfoAction}
                 className={`${classes.defaultMarginHorizontal} ${classes.defaultPaddingRight}`}>
                 <RefreshIcon className={classes.defaultMarginHorizontal}/>
-                获取发票号
+                获取病历号
             </Button>
             <Button
                 color={"primary"}

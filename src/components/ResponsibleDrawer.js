@@ -40,6 +40,7 @@ const ResponsibleDrawer = (props) => {
                     ModalProps={{
                         keepMounted: true
                     }}>
+                    {props.header}
                     <SingleLevelIconList drawerNavigators={props.drawerNavigators}/>
                 </Drawer>
             </Hidden>
@@ -50,6 +51,7 @@ const ResponsibleDrawer = (props) => {
                     }}
                     variant="permanent"
                     open>
+                    {props.header}
                     <SingleLevelIconList drawerNavigators={props.drawerNavigators}/>
                 </Drawer>
             </Hidden>
@@ -61,7 +63,8 @@ ResponsibleDrawer.propTypes = {
     drawerWidth: PropTypes.number.isRequired,
     mobileOpen: PropTypes.bool.isRequired,
     drawerNavigators: PropTypes.array.isRequired,
-    onClose: PropTypes.func.isRequired
+    onClose: PropTypes.func.isRequired,
+    header: PropTypes.any //自定义头部组件
 };
 
 export default ResponsibleDrawer

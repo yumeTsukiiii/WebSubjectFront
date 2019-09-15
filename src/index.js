@@ -16,6 +16,7 @@ import LoadingSnackbar from "./components/LoadingSnackbar";
 import MessageSnackbar from "./components/MessageSnackbar";
 import ReactIcon from './assets/imgs/react-icon.png'
 import './index.css'
+import {Typography} from "@material-ui/core";
 
 //一些很有用的扩展函数
 installKtExtensions();

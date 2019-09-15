@@ -34,8 +34,8 @@ export class AuthRepository {
     /**
      * 登录
      * */
-    login({username, password}) {
-        return this.source.login({username, password});
+    login({username, password, captcha}) {
+        return this.source.login({username, password, captcha});
     }
 
     /**
@@ -43,6 +43,14 @@ export class AuthRepository {
      * */
     logout() {
         return this.source.logout();
+    }
+
+    getCaptcha() {
+        return this.source.getCaptcha();
+    }
+
+    getUserName() {
+        return this.source.getUserName();
     }
 }
 

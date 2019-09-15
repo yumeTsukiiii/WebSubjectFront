@@ -11,6 +11,7 @@ import GlobalContext from "../../store/context";
 import {AuthRepository} from "../../net/repo/repository";
 import {handleNetCodeMessage} from "../../net/handler/ResponseHandler";
 import {showErrorMessage, showSuccessMessage} from "../../store/default";
+import DefaultNavigatorHeader from "../../components/DefaultNavigatorHeader";
 
 const ChargeWorkerPage = (props) => {
 
@@ -59,7 +60,6 @@ const ChargeWorkerPage = (props) => {
     useEffect(() => {
         setFadeIn(true);
     }, []);
-
     /**
      * 有个小bug，这个地方用全局ctx会导致整个页面刷新
      * */
@@ -95,7 +95,8 @@ const ChargeWorkerPage = (props) => {
                             </IconButton>
                         )
                     }
-                    navigateDelay={100}/>
+                    navigateDelay={100}
+                    header={<DefaultNavigatorHeader/>}/>
             </div>
         </Fade>
     );

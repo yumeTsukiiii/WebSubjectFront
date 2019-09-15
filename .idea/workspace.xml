@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14e43e2-d513-41b4-add0-2f3c6f1a5b01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/imgs/doctor-avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DefaultNavigatorHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/components/RegisteredActionTile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/components/RegisteredActionTile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageWithDrawerNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageWithDrawerNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ResponsibleDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResponsibleDrawer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/repo/remote_source/AuthService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/repo/remote_source/AuthService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/repo/repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/repo/repository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/doctor/DoctorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/doctor/DoctorPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/pharmacy/PharmacyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/pharmacy/PharmacyPage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,58 +26,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/doctor/DoctorPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/pharmacy/sub_page/medicine/MedicinePage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-163">
+              <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/pharmacy/PharmacyPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="541">
+              <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/repo/repository.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="143" column="43" selection-start-line="143" selection-start-column="43" selection-end-line="143" selection-end-column="43" />
+            <state relative-caret-position="261">
+              <caret line="279" column="10" selection-start-line="279" selection-start-column="10" selection-end-line="279" selection-end-column="10" />
               <folding>
-                <element signature="e#0#60#0" expanded="true" />
+                <element signature="e#0#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/repo/remote_source/DiagnoseService.js">
+        <entry file="file://$PROJECT_DIR$/src/net/handler/ResponseHandler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="506">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/RegisteredPage.js">
+        <entry file="file://$PROJECT_DIR$/src/components/DefaultNavigatorHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="638" column="29" selection-start-line="638" selection-start-column="29" selection-end-line="638" selection-end-column="29" />
+            <state relative-caret-position="629">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
-                <element signature="e#0#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/components/RegisteredActionTile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#0#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,8 +106,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -105,8 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/store/context.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/util/Auth.js" />
         <option value="$PROJECT_DIR$/src/net/config.js" />
         <option value="$PROJECT_DIR$/src/net/repo/remote_source/ReservationService.js" />
@@ -119,27 +144,18 @@
         <option value="$PROJECT_DIR$/src/net/repo/remote_source/DistributionService.js" />
         <option value="$PROJECT_DIR$/src/router.js" />
         <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/MedicalRecordModifyHeader.js" />
-        <option value="$PROJECT_DIR$/src/pages/login/LoginPage.js" />
-        <option value="$PROJECT_DIR$/src/components/ResponsibleAppBar.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/pages/charge_worker/sub_page/unregistered/UnRegisteredPage.js" />
         <option value="$PROJECT_DIR$/src/store/action.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/store/reducer.js" />
         <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/DoctorOperationController.js" />
         <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordPage.js" />
         <option value="$PROJECT_DIR$/src/pages/pharmacy/sub_page/medicine/component/MedicineTable.js" />
-        <option value="$PROJECT_DIR$/src/net/repo/remote_source/AuthService.js" />
-        <option value="$PROJECT_DIR$/src/pages/doctor/DoctorPage.js" />
-        <option value="$PROJECT_DIR$/src/pages/pharmacy/PharmacyPage.js" />
-        <option value="$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js" />
         <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js" />
         <option value="$PROJECT_DIR$/src/net/handler/ResponseHandler.js" />
         <option value="$PROJECT_DIR$/src/pages/charge_worker/sub_page/charge/ChargePage.js" />
         <option value="$PROJECT_DIR$/src/components/GridInputs.js" />
         <option value="$PROJECT_DIR$/src/components/LoadingSnackbar.js" />
-        <option value="$PROJECT_DIR$/src/components/PageWithDrawerNavigator.js" />
-        <option value="$PROJECT_DIR$/src/components/ResponsibleDrawer.js" />
         <option value="$PROJECT_DIR$/src/components/SearchBar.js" />
         <option value="$PROJECT_DIR$/src/components/TransferList.js" />
         <option value="$PROJECT_DIR$/src/net/repo/remote_source/PaymentService.js" />
@@ -153,13 +169,24 @@
         <option value="$PROJECT_DIR$/src/pages/charge_worker/sub_page/charge/component/BillInfoDialogContent.js" />
         <option value="$PROJECT_DIR$/src/net/repo/remote_source/DiagnoseService.js" />
         <option value="$PROJECT_DIR$/src/components/MessageSnackbar.js" />
-        <option value="$PROJECT_DIR$/src/net/repo/repository.js" />
         <option value="$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/components/RegisteredActionTile.js" />
         <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/ResponsibleDrawer.js" />
+        <option value="$PROJECT_DIR$/src/components/PageWithDrawerNavigator.js" />
+        <option value="$PROJECT_DIR$/src/components/ResponsibleAppBar.js" />
+        <option value="$PROJECT_DIR$/src/pages/login/LoginPage.js" />
+        <option value="$PROJECT_DIR$/src/net/repo/remote_source/AuthService.js" />
+        <option value="$PROJECT_DIR$/src/net/repo/repository.js" />
+        <option value="$PROJECT_DIR$/src/components/DefaultNavigatorHeader.js" />
+        <option value="$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js" />
+        <option value="$PROJECT_DIR$/src/pages/doctor/DoctorPage.js" />
+        <option value="$PROJECT_DIR$/src/pages/pharmacy/PharmacyPage.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -186,77 +213,7 @@
               <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-subject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-              <item name="remote_source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="charge_worker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="charge_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="sub_page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="charge_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="sub_page" type="462c0819:PsiDirectoryNode" />
-              <item name="charge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="charge_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="sub_page" type="462c0819:PsiDirectoryNode" />
-              <item name="registered" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="charge_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="sub_page" type="462c0819:PsiDirectoryNode" />
-              <item name="registered" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
@@ -291,41 +248,6 @@
               <item name="sub_page" type="462c0819:PsiDirectoryNode" />
               <item name="outpatient_medical_record" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="doctor" type="462c0819:PsiDirectoryNode" />
-              <item name="sub_page" type="462c0819:PsiDirectoryNode" />
-              <item name="outpatient_medical_record" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="medical_modify_page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="pharmacy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="pharmacy" type="462c0819:PsiDirectoryNode" />
-              <item name="sub_page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="pharmacy" type="462c0819:PsiDirectoryNode" />
-              <item name="sub_page" type="462c0819:PsiDirectoryNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
@@ -355,19 +277,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/imgs" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/net/repo/text_source" />
-      <recent name="$PROJECT_DIR$/src/pages/pharmacy/sub_page/medicine/component" />
-      <recent name="$PROJECT_DIR$/src/pages/pharmacy" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/net" />
       <recent name="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/modify_page" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record" />
       <recent name="$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/imgs" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/net/repo/text_source" />
+      <recent name="$PROJECT_DIR$/src/pages/pharmacy/sub_page/medicine/component" />
+      <recent name="$PROJECT_DIR$/src/pages/pharmacy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -439,16 +361,18 @@
       <workItem from="1567661964033" duration="411000" />
       <workItem from="1567727072899" duration="2703000" />
       <workItem from="1567818346358" duration="816000" />
-      <workItem from="1567843431023" duration="940000" />
+      <workItem from="1567843431023" duration="1040000" />
+      <workItem from="1567996879290" duration="2551000" />
+      <workItem from="1568182439256" duration="157000" />
+      <workItem from="1568504319177" duration="2900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239567000" />
+    <option name="totallyTimeSpent" value="245275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2840028" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -471,7 +395,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2840028" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -485,7 +409,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3133758" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40240964" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -496,16 +420,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/medical_worker/MedicalWorkerPageContainer.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/pharmacy/sub_page/medicine/component/MedicineActionTile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/repo/remote_source/DistributionService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -543,16 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/login/LoginPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-471">
-          <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -571,16 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,47 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/repo/remote_source/AuthService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/doctor/DoctorPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="65" column="76" lean-forward="true" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="92" column="76" selection-start-line="92" selection-start-column="76" selection-end-line="92" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="339" column="36" selection-start-line="339" selection-start-column="36" selection-end-line="339" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/handler/ResponseHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/sub_page/charge/component/ChargeInfoTable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -679,33 +532,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PageWithDrawerNavigator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="129" column="21" lean-forward="true" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ResponsibleDrawer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ResponsibleAppBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -742,23 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/pharmacy/PharmacyPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/pharmacy/sub_page/medicine/MedicinePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,6 +683,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="92" column="61" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/repo/remote_source/DiagnoseService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/RegisteredPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -886,38 +722,130 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/components/RegisteredActionTile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        <state relative-caret-position="405">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PageWithDrawerNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="84" column="36" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ResponsibleDrawer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ResponsibleAppBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/login/LoginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="198" column="27" lean-forward="true" selection-start-line="198" selection-start-column="27" selection-end-line="198" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/repo/remote_source/AuthService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/repo/repository.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="143" column="43" selection-start-line="143" selection-start-column="43" selection-end-line="143" selection-end-column="43" />
+        <state relative-caret-position="255">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
           <folding>
             <element signature="e#0#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/repo/remote_source/DiagnoseService.js">
+    <entry file="file://$PROJECT_DIR$/src/net/handler/ResponseHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+        <state relative-caret-position="506">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DefaultNavigatorHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="497">
+          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/doctor/DoctorPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/pharmacy/sub_page/medicine/MedicinePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/pharmacy/PharmacyPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="279" column="10" selection-start-line="279" selection-start-column="10" selection-end-line="279" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

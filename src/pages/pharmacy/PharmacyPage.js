@@ -9,6 +9,7 @@ import {AuthRepository} from "../../net/repo/repository";
 import IconButton from "@material-ui/core/IconButton";
 import ExitIcon from "@material-ui/icons/ExitToApp";
 import {handleNetCodeMessage} from "../../net/handler/ResponseHandler";
+import DefaultNavigatorHeader from "../../components/DefaultNavigatorHeader";
 
 const PharmacyPage = (props) => {
 
@@ -69,7 +70,8 @@ const PharmacyPage = (props) => {
                             </IconButton>
                         )
                     }
-                    navigateDelay={100}/>
+                    navigateDelay={100}
+                    header={<DefaultNavigatorHeader/>}/>
             </div>
         </Fade>
     );

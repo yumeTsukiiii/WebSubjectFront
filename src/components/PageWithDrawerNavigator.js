@@ -81,7 +81,8 @@ const PageWithDrawerNavigator = (props) => {
                 drawerWidth={drawerWidth}
                 mobileOpen={mobileOpen}
                 drawerNavigators={drawerNavigators}
-                onClose={handleDrawerToggle}/>
+                onClose={handleDrawerToggle}
+                header={props.header}/>
 
             {/* 功能页面 */}
             <main className={classes.content}>
@@ -123,7 +124,8 @@ PageWithDrawerNavigator.propTypes = {
     toolBarAction: PropTypes.node, //AppBar右侧可选导航
     beforeNavigate: PropTypes.func, //子页面跳转前函数
     afterNavigate: PropTypes.func, //子页面跳转后函数
-    navigateDelay: PropTypes.number //页面跳转延迟
+    navigateDelay: PropTypes.number, //页面跳转延迟,
+    header: PropTypes.any
 };
 
 PageWithDrawerNavigator.defaultProps = {

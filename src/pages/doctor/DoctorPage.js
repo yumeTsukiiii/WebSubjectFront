@@ -9,6 +9,7 @@ import GlobalContext from "../../store/context";
 import {AuthRepository} from "../../net/repo/repository";
 import {showErrorMessage, showSuccessMessage} from "../../store/default";
 import {handleNetCodeMessage} from "../../net/handler/ResponseHandler";
+import DefaultNavigatorHeader from "../../components/DefaultNavigatorHeader";
 const DoctorPage = (props) => {
 
     const basePath = '/doctor';
@@ -68,7 +69,8 @@ const DoctorPage = (props) => {
                             </IconButton>
                         )
                     }
-                    navigateDelay={100}/>
+                    navigateDelay={100}
+                    header={<DefaultNavigatorHeader/>}/>
             </div>
         </Fade>
     );

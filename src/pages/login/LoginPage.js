@@ -1,6 +1,6 @@
 import React, {useContext, useEffect, useState} from 'react';
 import PropTypes from 'prop-types';
-import {Card, CardContent, CardHeader} from "@material-ui/core";
+import {Card, CardContent, CardHeader, Typography} from "@material-ui/core";
 import TextField from "@material-ui/core/TextField";
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
@@ -14,6 +14,7 @@ import GlobalContext from "../../store/context";
 import {hideLoading, showErrorMessage, showLoading, showSuccessMessage} from "../../store/default";
 import {handleNetCodeMessage} from "../../net/handler/ResponseHandler";
 import Fade from "@material-ui/core/Fade";
+import RefreshIcon from '@material-ui/icons/Refresh'
 
 const useStyles = makeStyles(theme => ({
     backgroundWithImage: {
@@ -56,12 +57,22 @@ const LoginPage = (props) => {
 
     const [password, setPassword] = useState('');
 
+    const [captcha, setCaptcha] = useState('');
+
+    const [captchaImg, setCaptchaImg] = useState(null);
+
     const [fadeIn, setFadeIn] = useState(false);
 
     const authRepository = AuthRepository.of('remote');
 
     useEffect(() => {
+        document.getElementById('captchaImg').also(image => {
+            image.onload = () => {
+                window.URL.revokeObjectURL(image.src)
+            };
+        });
         setPageHeight(window.innerHeight);
+        getCaptchaImage();
         setFadeIn(true);
     }, []);
 
@@ -73,6 +84,10 @@ const LoginPage = (props) => {
         setPassword(target.value);
     };
 
+    const handleCaptchaChange = ({target}) => {
+        setCaptcha(target.value);
+    };
+
     const transcationNavigateTo = (path) => {
         setFadeIn(false);
         setTimeout(() => {
@@ -80,11 +95,19 @@ const LoginPage = (props) => {
         }, 300);
     };
 
+    const getCaptchaImage = () => {
+        authRepository.getCaptcha().then(data => {
+            setCaptchaImg(window.URL.createObjectURL(data.data))
+        }).catch(data => {
+            showErrorMessage(ctx, "服务器暂时无法处理您的请求")
+        })
+    };
+
     const handleLogin = () => {
         setCanLogin(false);
         showLoading(ctx, '登录中');
         authRepository.login({
-            username, password
+            username, password, captcha
         }).then(data => {
             hideLoading(ctx);
             if (data.identity.includes('医生')) {
@@ -119,6 +142,18 @@ const LoginPage = (props) => {
                 container
                 justify={'center'}
                 alignItems={'center'}>
+                <Typography variant={"h3"} style={{
+                    color: 'white',
+                    position: 'fixed',
+                    top: '8vh',
+                    left: '0',
+                    right: '0',
+                    display: 'block',
+                    margin: "auto",
+                    textAlign: "center"
+                }}>
+                    HIS医疗系统
+                </Typography>
                 <div className={classes.snowBackground} />
                 <Grid
                     item
@@ -144,6 +179,27 @@ const LoginPage = (props) => {
                                     label={'密码'}
                                     fullWidth
                                     type="password"/>
+                                <div className={classes.defaultMarginTop}/>
+                                <TextField
+                                    value={captcha}
+                                    onChange={handleCaptchaChange}
+                                    label={'验证码'}
+                                    fullWidth/>
+                                <div className={classes.defaultMarginTop}/>
+                                <Grid container
+                                      justify={"space-between"}
+                                      direction={"row"}>
+                                    <img id={'captchaImg'}
+                                         src={captchaImg}
+                                        style={{
+                                            width: '40%'
+                                        }}/>
+                                    <Button
+                                        onClick={getCaptchaImage}>
+                                        <RefreshIcon/>
+                                        看不清？换一张
+                                    </Button>
+                                </Grid>
                                 <div className={classes.defaultMarginTop}/>
                                 <Button
                                     color={"primary"}

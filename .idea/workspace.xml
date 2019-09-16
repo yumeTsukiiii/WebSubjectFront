@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14e43e2-d513-41b4-add0-2f3c6f1a5b01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/imgs/doctor-avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DefaultNavigatorHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageWithDrawerNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageWithDrawerNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ResponsibleDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResponsibleDrawer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/repo/remote_source/AuthService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/repo/remote_source/AuthService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/repo/repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/repo/repository.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/doctor/DoctorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/doctor/DoctorPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/LoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/pharmacy/PharmacyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/pharmacy/PharmacyPage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
+            <state relative-caret-position="2156">
               <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="54" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
@@ -41,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/doctor/DoctorPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
+            <state relative-caret-position="1342">
               <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
             </state>
           </provider>
@@ -50,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/pharmacy/sub_page/medicine/MedicinePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-163">
+            <state relative-caret-position="1452">
               <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
@@ -62,19 +52,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/pharmacy/PharmacyPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
+            <state relative-caret-position="1364">
               <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
+            <state relative-caret-position="6138">
               <caret line="279" column="10" selection-start-line="279" selection-start-column="10" selection-end-line="279" selection-end-column="10" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/DefaultNavigatorHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
+            <state relative-caret-position="1276">
               <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
@@ -171,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/components/MessageSnackbar.js" />
         <option value="$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/components/RegisteredActionTile.js" />
         <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/ResponsibleDrawer.js" />
         <option value="$PROJECT_DIR$/src/components/PageWithDrawerNavigator.js" />
@@ -183,10 +193,11 @@
         <option value="$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js" />
         <option value="$PROJECT_DIR$/src/pages/doctor/DoctorPage.js" />
         <option value="$PROJECT_DIR$/src/pages/pharmacy/PharmacyPage.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -196,7 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,6 +269,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,14 +376,16 @@
       <workItem from="1567996879290" duration="2551000" />
       <workItem from="1568182439256" duration="157000" />
       <workItem from="1568504319177" duration="2900000" />
+      <workItem from="1568643304000" duration="165000" />
+      <workItem from="1568643691713" duration="15000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245275000" />
+    <option name="totallyTimeSpent" value="245455000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2840028" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -683,16 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="92" column="61" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -734,13 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="84" column="36" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -788,26 +784,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/handler/ResponseHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DefaultNavigatorHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
+        <state relative-caret-position="2156">
           <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="54" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
@@ -817,14 +796,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/doctor/DoctorPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
+        <state relative-caret-position="1342">
           <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/pharmacy/sub_page/medicine/MedicinePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
+        <state relative-caret-position="1452">
           <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
@@ -834,17 +813,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/pharmacy/PharmacyPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
+        <state relative-caret-position="1364">
           <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="6138">
           <caret line="279" column="10" selection-start-line="279" selection-start-column="10" selection-end-line="279" selection-end-column="10" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/handler/ResponseHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DefaultNavigatorHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1276">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -27,6 +27,19 @@ const theme = createMuiTheme({
    }
 });
 
+/**
+ * 就在这里改相关主题色，参考官网, https://material-ui.com/zh/customization/theming/
+ * const theme = createMuiTheme({
+ * palette: {
+ *   primary: purple,
+ *   secondary: green,
+ * },
+ * status: {
+ *   danger: 'orange',
+ * },
+ *});
+ * */
+
 const ThemedApp = () => {
     return (
         <ThemeProvider theme={theme}>

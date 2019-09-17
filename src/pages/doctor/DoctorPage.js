@@ -10,6 +10,8 @@ import {AuthRepository} from "../../net/repo/repository";
 import {showErrorMessage, showSuccessMessage} from "../../store/default";
 import {handleNetCodeMessage} from "../../net/handler/ResponseHandler";
 import DefaultNavigatorHeader from "../../components/DefaultNavigatorHeader";
+import DoctorAvatar from "../../assets/imgs/doctor-avatar.jpg"
+
 const DoctorPage = (props) => {
 
     const basePath = '/doctor';
@@ -70,7 +72,7 @@ const DoctorPage = (props) => {
                         )
                     }
                     navigateDelay={100}
-                    header={<DefaultNavigatorHeader/>}/>
+                    header={<DefaultNavigatorHeader avatar={DoctorAvatar}/>}/>
             </div>
         </Fade>
     );

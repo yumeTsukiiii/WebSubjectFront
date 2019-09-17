@@ -10,6 +10,7 @@ import IconButton from "@material-ui/core/IconButton";
 import ExitIcon from "@material-ui/icons/ExitToApp";
 import {handleNetCodeMessage} from "../../net/handler/ResponseHandler";
 import DefaultNavigatorHeader from "../../components/DefaultNavigatorHeader";
+import PharmacyAvatar from "../../assets/imgs/doctor-avatar-pharmacy.jpeg"
 
 const PharmacyPage = (props) => {
 
@@ -71,7 +72,7 @@ const PharmacyPage = (props) => {
                         )
                     }
                     navigateDelay={100}
-                    header={<DefaultNavigatorHeader/>}/>
+                    header={<DefaultNavigatorHeader avatar={PharmacyAvatar}/>}/>
             </div>
         </Fade>
     );

@@ -46,7 +46,7 @@ const DefaultNavigatorHeader = (props) => {
                 backgroundColor: theme.palette.primary.main
             }
         } container alignItems={"center"} justify={"center"} direction={"column"}>
-            <Avatar src={DoctorAvatar} style={{
+            <Avatar src={props.avatar} style={{
                 height: '64px',
                 width: '64px'
             }}/>
@@ -59,6 +59,14 @@ const DefaultNavigatorHeader = (props) => {
             </Typography>
         </Grid>
     );
+};
+
+DefaultNavigatorHeader.propTypes = {
+    avatar: PropTypes.any
+};
+
+DefaultNavigatorHeader.defaultProps = {
+    avatar: DoctorAvatar
 };
 
 export default DefaultNavigatorHeader

@@ -12,6 +12,7 @@ import {AuthRepository} from "../../net/repo/repository";
 import {handleNetCodeMessage} from "../../net/handler/ResponseHandler";
 import {showErrorMessage, showSuccessMessage} from "../../store/default";
 import DefaultNavigatorHeader from "../../components/DefaultNavigatorHeader";
+import ChargeWorkerAvatar from "../../assets/imgs/doctor-avatar-charge-worker.jpeg"
 
 const ChargeWorkerPage = (props) => {
 
@@ -96,7 +97,7 @@ const ChargeWorkerPage = (props) => {
                         )
                     }
                     navigateDelay={100}
-                    header={<DefaultNavigatorHeader/>}/>
+                    header={<DefaultNavigatorHeader avatar={ChargeWorkerAvatar}/>}/>
             </div>
         </Fade>
     );

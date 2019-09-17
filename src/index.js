@@ -6,6 +6,7 @@ import {blue} from "@material-ui/core/colors";
 import { ThemeProvider } from '@material-ui/styles';
 import installKtExtensions from "./util/kt-extensions";
 import DateFnsUtils from "@date-io/date-fns";
+import chLocale from "date-fns/locale/zh-CN"
 import {
     MuiPickersUtilsProvider,
 } from "@material-ui/pickers";
@@ -16,7 +17,6 @@ import LoadingSnackbar from "./components/LoadingSnackbar";
 import MessageSnackbar from "./components/MessageSnackbar";
 import ReactIcon from './assets/imgs/react-icon.png'
 import './index.css'
-import {Typography} from "@material-ui/core";
 
 //一些很有用的扩展函数
 installKtExtensions();
@@ -50,7 +50,7 @@ const ThemedApp = () => {
 
 const WithPickerApp = () => {
     return (
-        <MuiPickersUtilsProvider utils={DateFnsUtils}>
+        <MuiPickersUtilsProvider utils={DateFnsUtils} locale={chLocale}>
             <ThemedApp/>
         </MuiPickersUtilsProvider>
     )

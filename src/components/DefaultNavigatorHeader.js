@@ -8,6 +8,7 @@ import {handleNetCodeMessage} from "../net/handler/ResponseHandler";
 import {showErrorMessage} from "../store/default";
 import GlobalContext from "../store/context";
 import {AuthRepository} from "../net/repo/repository";
+import {useTheme} from "@material-ui/styles";
 
 const DefaultNavigatorHeader = (props) => {
 
@@ -16,6 +17,9 @@ const DefaultNavigatorHeader = (props) => {
     const authRepository = AuthRepository.of('remote');
 
     const [username, setUsername] = useState('');
+
+    //使用主题
+    const theme = useTheme();
 
     useEffect(() => {
         getUsername()
@@ -39,7 +43,7 @@ const DefaultNavigatorHeader = (props) => {
         <Grid style={
             {
                 height: '200px',
-                backgroundColor: 'dodgerblue'
+                backgroundColor: theme.palette.primary.main
             }
         } container alignItems={"center"} justify={"center"} direction={"column"}>
             <Avatar src={DoctorAvatar} style={{

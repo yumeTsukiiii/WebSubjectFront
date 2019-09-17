@@ -126,8 +126,11 @@ const LoginPage = (props) => {
         }).catch(data => {
             hideLoading(ctx);
 
-            handleNetCodeMessage(data, message => {
-                showErrorMessage(ctx, message)
+            handleNetCodeMessage(data, (message, status) => {
+                showErrorMessage(ctx, message);
+                if (status === -11) {
+                    getCaptchaImage()
+                }
             });
 
             setCanLogin(true);

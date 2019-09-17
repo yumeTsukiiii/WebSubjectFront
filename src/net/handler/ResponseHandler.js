@@ -4,7 +4,8 @@ const errorMap = {
     '-4': '登录已过期',
     "-5": '数据库出错',
     "-10": '无过往病历',
-    "-9": '无收费信息'
+    "-9": '无收费信息',
+    "-11": '验证码错误'
 };
 
 export function handleResponse(resp) {

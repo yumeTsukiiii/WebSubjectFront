@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a14e43e2-d513-41b4-add0-2f3c6f1a5b01" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DefaultNavigatorHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultNavigatorHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/handler/ResponseHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/handler/ResponseHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/LoginPage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,18 +19,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2156">
-              <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/doctor/DoctorPage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1342">
@@ -40,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/pharmacy/sub_page/medicine/MedicinePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1452">
+            <state relative-caret-position="1232">
               <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
@@ -61,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6138">
+            <state relative-caret-position="5632">
               <caret line="279" column="10" selection-start-line="279" selection-start-column="10" selection-end-line="279" selection-end-column="10" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
@@ -79,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            <state relative-caret-position="264">
+              <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -92,10 +82,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/handler/ResponseHandler.js">
+        <entry file="file://$PROJECT_DIR$/src/components/ResponsibleAppBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="286">
+              <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -103,8 +93,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/DefaultNavigatorHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1276">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="50">
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/handler/ResponseHandler.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/login/LoginPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -163,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordPage.js" />
         <option value="$PROJECT_DIR$/src/pages/pharmacy/sub_page/medicine/component/MedicineTable.js" />
         <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js" />
-        <option value="$PROJECT_DIR$/src/net/handler/ResponseHandler.js" />
         <option value="$PROJECT_DIR$/src/pages/charge_worker/sub_page/charge/ChargePage.js" />
         <option value="$PROJECT_DIR$/src/components/GridInputs.js" />
         <option value="$PROJECT_DIR$/src/components/LoadingSnackbar.js" />
@@ -186,20 +196,23 @@
         <option value="$PROJECT_DIR$/src/components/ResponsibleDrawer.js" />
         <option value="$PROJECT_DIR$/src/components/PageWithDrawerNavigator.js" />
         <option value="$PROJECT_DIR$/src/components/ResponsibleAppBar.js" />
-        <option value="$PROJECT_DIR$/src/pages/login/LoginPage.js" />
         <option value="$PROJECT_DIR$/src/net/repo/remote_source/AuthService.js" />
         <option value="$PROJECT_DIR$/src/net/repo/repository.js" />
-        <option value="$PROJECT_DIR$/src/components/DefaultNavigatorHeader.js" />
         <option value="$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js" />
         <option value="$PROJECT_DIR$/src/pages/doctor/DoctorPage.js" />
         <option value="$PROJECT_DIR$/src/pages/pharmacy/PharmacyPage.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/DefaultNavigatorHeader.js" />
+        <option value="$PROJECT_DIR$/src/net/handler/ResponseHandler.js" />
+        <option value="$PROJECT_DIR$/src/pages/login/LoginPage.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-356" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -207,6 +220,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,6 +232,26 @@
               <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-subject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
@@ -263,13 +297,19 @@
               <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-subject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-subject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-subject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,14 +418,17 @@
       <workItem from="1568504319177" duration="2900000" />
       <workItem from="1568643304000" duration="165000" />
       <workItem from="1568643691713" duration="15000" />
+      <workItem from="1568643721778" duration="261000" />
+      <workItem from="1568694132501" duration="817000" />
+      <workItem from="1568720061412" duration="593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245455000" />
+    <option name="totallyTimeSpent" value="247126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2840028" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -401,7 +444,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40240964" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29681528" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -750,23 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ResponsibleAppBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/login/LoginPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="198" column="27" lean-forward="true" selection-start-line="198" selection-start-column="27" selection-end-line="198" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/repo/remote_source/AuthService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -786,7 +812,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2156">
+        <state relative-caret-position="1870">
           <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="54" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
@@ -803,7 +829,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/pharmacy/sub_page/medicine/MedicinePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
+        <state relative-caret-position="1232">
           <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
@@ -820,7 +846,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6138">
+        <state relative-caret-position="5632">
           <caret line="279" column="10" selection-start-line="279" selection-start-column="10" selection-end-line="279" selection-end-column="10" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
@@ -835,29 +861,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/handler/ResponseHandler.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="264">
+          <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ResponsibleAppBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/DefaultNavigatorHeader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="50">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/net/handler/ResponseHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/login/LoginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#61#0" expanded="true" />
           </folding>
         </state>
       </provider>

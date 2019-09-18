@@ -172,8 +172,8 @@ const ChargePage = (props) => {
         }).then(data => {
             showSuccessMessage(ctx, "收费成功");
             setChosenChargesInfo([]);
-            chargesInfo.forEach(item => item.status === '已收费');
-            setChargesInfo(chargesInfo);
+
+            setChargesInfo(chargesInfo.map(item => item.status = '已收费'));
         }).catch(data => {
             handleNetCodeMessage(data, message => {
                 showErrorMessage(ctx, message)

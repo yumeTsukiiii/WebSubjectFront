@@ -68,6 +68,12 @@ const MedicalRecord = (props) => {
         ])
     };
 
+    const handlePatientSearcherTextClear = () => {
+        setShowingPatient(
+            patients.filter((patient) => patient.name.search('') !== -1)
+        )
+    };
+
     return (
         <Fade in={fadeIn}>
             <div>
@@ -78,6 +84,7 @@ const MedicalRecord = (props) => {
                         <RegisteredPatientSearcher
                             patients={showingPatients}
                             onChange={handlePatientSearcherTextChange}
+                            onClear={handlePatientSearcherTextClear}
                             onPatientItemClick={handlePatientItemClick}/>
                     </Grid>
                     <Grid

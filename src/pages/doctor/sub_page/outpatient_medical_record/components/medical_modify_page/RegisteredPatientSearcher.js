@@ -53,6 +53,7 @@ const RegisteredPatientSearcher = (props) => {
             <SearchBar
                 id={'search-bar'}
                 onChange={props.onChange}
+                onClear={props.onClear}
                 label={'病人姓名'}/>
             <FormControlLabel
                 id={'switch-control'}
@@ -80,6 +81,7 @@ RegisteredPatientSearcher.propTypes = {
     })).isRequired,
     onChange: PropTypes.func.isRequired,
     onSearch: PropTypes.func,
+    onClear: PropTypes.func,
     onPatientItemClick: PropTypes.func.isRequired,
     patientListHeight: PropTypes.number
 };

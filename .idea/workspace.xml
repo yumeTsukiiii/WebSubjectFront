@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14e43e2-d513-41b4-add0-2f3c6f1a5b01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/RegisteredPatientSearcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/RegisteredPatientSearcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/prescription_modify_page/SearchTemplateDialogContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/prescription_modify_page/SearchTemplateDialogContent.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,68 +17,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/doctor/DoctorPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="788">
-              <caret line="77" column="6" lean-forward="true" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/login/LoginPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="95" column="6" lean-forward="true" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/DiseaseDiagnosisTable.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="151" column="16" lean-forward="true" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="388" column="61" selection-start-line="388" selection-start-column="61" selection-end-line="388" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/DateFormatter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/RegisteredPatientList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="304" column="30" selection-start-line="304" selection-start-column="30" selection-end-line="304" selection-end-column="30" />
+            <state relative-caret-position="-298">
+              <caret line="64" column="41" lean-forward="true" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/RegisteredPatientSearcher.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/SearchBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,9 +118,7 @@
         <option value="$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/RegisteredPage.js" />
         <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/prescription_modify_page/PrescriptionTable.js" />
         <option value="$PROJECT_DIR$/src/store/default.js" />
-        <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/RegisteredPatientSearcher.js" />
         <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/RegisteredPatientList.js" />
-        <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/prescription_modify_page/SearchTemplateDialogContent.js" />
         <option value="$PROJECT_DIR$/src/pages/charge_worker/sub_page/charge/component/BillInfoDialogContent.js" />
         <option value="$PROJECT_DIR$/src/net/repo/remote_source/DiagnoseService.js" />
         <option value="$PROJECT_DIR$/src/components/MessageSnackbar.js" />
@@ -165,6 +141,8 @@
         <option value="$PROJECT_DIR$/src/util/DateFormatter.js" />
         <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js" />
         <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js" />
+        <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/prescription_modify_page/SearchTemplateDialogContent.js" />
+        <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/RegisteredPatientSearcher.js" />
       </list>
     </option>
   </component>
@@ -377,17 +355,19 @@
       <workItem from="1568694132501" duration="817000" />
       <workItem from="1568720061412" duration="2755000" />
       <workItem from="1568731313807" duration="649000" />
-      <workItem from="1568740574451" duration="3019000" />
+      <workItem from="1568740574451" duration="3293000" />
+      <workItem from="1568804541805" duration="758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252956000" />
+    <option name="totallyTimeSpent" value="253988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2840028" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2840028" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -401,7 +381,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29681528" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2955414" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -480,16 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SearchBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SingleLevelIconList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -553,37 +523,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/RegisteredPatientSearcher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/RegisteredPatientList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="63" column="84" selection-start-line="63" selection-start-column="84" selection-end-line="63" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/prescription_modify_page/SearchTemplateDialogContent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-809">
-          <caret line="73" column="62" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -761,19 +700,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/IdentityAvatar.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/login/LoginPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="95" column="6" lean-forward="true" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/IdentityAvatar.js" />
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -811,16 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/DiseaseDiagnosisTable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="151" column="16" lean-forward="true" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@date-io/date-fns/build/date-fns-utils.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-260">
@@ -837,17 +754,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/doctor/DoctorPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="77" column="6" lean-forward="true" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
+        <state relative-caret-position="1430">
+          <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/login/LoginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1738">
+          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/DiseaseDiagnosisTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2772">
+          <caret line="151" column="16" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="8008">
           <caret line="388" column="61" selection-start-line="388" selection-start-column="61" selection-end-line="388" selection-end-column="61" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
@@ -858,7 +795,7 @@
     <entry file="file://$PROJECT_DIR$/src/util/DateFormatter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -866,6 +803,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="304" column="30" selection-start-line="304" selection-start-column="30" selection-end-line="304" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/prescription_modify_page/SearchTemplateDialogContent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/RegisteredPatientSearcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/components/medical_modify_page/RegisteredPatientList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="64" column="41" lean-forward="true" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
         </state>
       </provider>
     </entry>

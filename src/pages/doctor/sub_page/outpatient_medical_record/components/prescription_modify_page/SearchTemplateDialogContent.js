@@ -65,7 +65,7 @@ const SearchTemplateDialogContent = (props) => {
 
     const classes = useStyles();
 
-    const [expanded, setExpanded] = React.useState(-1);
+    const [expanded, setExpanded] = React.useState('');
 
     const handleChange = panel => (event, isExpanded) => {
         setExpanded(isExpanded ? panel : false);
@@ -86,9 +86,9 @@ const SearchTemplateDialogContent = (props) => {
             {
                 props.templateList.map(template => (
                     <ExpansionPanel
-                        key={template.id}
-                        expanded={expanded === template.id}
-                        onChange={handleChange(template.id)}>
+                        key={template.name}
+                        expanded={expanded === template.name}
+                        onChange={handleChange(template.name)}>
                         <ExpansionPanelSummary
                             style={{display:'flex', alignItems: 'center'}}
                             expandIcon={<ExpandMoreIcon />}>

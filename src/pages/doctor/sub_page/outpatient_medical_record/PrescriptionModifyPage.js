@@ -304,15 +304,18 @@ const PrescriptionModifyPage = (props) => {
         let newPrescriptions = prescriptions;
         newPrescriptions.find(prescription => prescription.name === currentEditPrescriptionName)
             .also(it => {
-                it.detail = chosenDrug.map(drug => ({
-                    id: drug.id,
-                    price: drug.price, //药品价格
-                    name: drug.name, //药品规格
-                    specification: drug.specification,
-                    dosage: 1, //药量
-                    usage: '', //用法
-                    frequency: '', //频次,
-                }));
+                it.detail = [
+                    ...it.detail,
+                    chosenDrug.map(drug => ({
+                        id: drug.id,
+                        price: drug.price, //药品价格
+                        name: drug.name, //药品规格
+                        specification: drug.specification,
+                        dosage: 1, //药量
+                        usage: '', //用法
+                        frequency: '', //频次,
+                    }))
+                ];
                 setPrescriptions(newPrescriptions)
             });
 

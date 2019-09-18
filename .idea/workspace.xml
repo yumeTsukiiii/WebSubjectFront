@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14e43e2-d513-41b4-add0-2f3c6f1a5b01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/util/DateFormatter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="390" column="46" selection-start-line="390" selection-start-column="46" selection-end-line="390" selection-end-column="46" />
+            <state relative-caret-position="239">
+              <caret line="388" column="61" selection-start-line="388" selection-start-column="61" selection-end-line="388" selection-end-column="61" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -65,11 +63,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/DateFormatter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="98" selection-start-line="1" selection-start-column="98" selection-end-line="1" selection-end-column="98" />
+            <state relative-caret-position="88">
+              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="316" column="23" selection-start-line="316" selection-start-column="23" selection-end-line="316" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -140,7 +147,6 @@
         <option value="$PROJECT_DIR$/src/net/repo/remote_source/DiagnoseService.js" />
         <option value="$PROJECT_DIR$/src/components/MessageSnackbar.js" />
         <option value="$PROJECT_DIR$/src/pages/charge_worker/sub_page/registered/components/RegisteredActionTile.js" />
-        <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/ResponsibleDrawer.js" />
         <option value="$PROJECT_DIR$/src/components/PageWithDrawerNavigator.js" />
@@ -156,8 +162,9 @@
         <option value="$PROJECT_DIR$/src/pages/doctor/DoctorPage.js" />
         <option value="$PROJECT_DIR$/src/pages/charge_worker/ChargeWorkerPage.js" />
         <option value="$PROJECT_DIR$/src/pages/pharmacy/PharmacyPage.js" />
-        <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js" />
         <option value="$PROJECT_DIR$/src/util/DateFormatter.js" />
+        <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js" />
+        <option value="$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js" />
       </list>
     </option>
   </component>
@@ -370,12 +377,12 @@
       <workItem from="1568694132501" duration="817000" />
       <workItem from="1568720061412" duration="2755000" />
       <workItem from="1568731313807" duration="649000" />
-      <workItem from="1568740574451" duration="2494000" />
+      <workItem from="1568740574451" duration="2849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252431000" />
+    <option name="totallyTimeSpent" value="252786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -719,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -847,8 +847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/MedicalRecordModifyPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="390" column="46" selection-start-line="390" selection-start-column="46" selection-end-line="390" selection-end-column="46" />
+        <state relative-caret-position="239">
+          <caret line="388" column="61" selection-start-line="388" selection-start-column="61" selection-end-line="388" selection-end-column="61" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
@@ -857,8 +857,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/DateFormatter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="98" selection-start-line="1" selection-start-column="98" selection-end-line="1" selection-end-column="98" />
+        <state relative-caret-position="88">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/doctor/sub_page/outpatient_medical_record/PrescriptionModifyPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="316" column="23" selection-start-line="316" selection-start-column="23" selection-end-line="316" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -22,6 +22,7 @@ import {DiagnoseRepository} from "../../../../net/repo/repository";
 import {handleNetCodeMessage} from "../../../../net/handler/ResponseHandler";
 import {addDiagnosis, removeDiagnosis, showErrorMessage, showSuccessMessage} from "../../../../store/default";
 import DateFnsUtils from "@date-io/date-fns";
+import DateFormatter from "../../../../util/DateFormatter";
 
 const fixedHeight = 96;
 
@@ -334,7 +335,7 @@ const MedicalRecordModifyPage = (props) => {
             check: inputsValue.physicalExamination,
             diagnosis: diseaseDiagnosis.map(item => ({
                 ICD: item.icdCode,
-                date: new DateFnsUtils().format(item.occurredTime, "yyyy-MM-dd")
+                date: new DateFnsUtils().format(new Date(item.occurredTime), "yyyy-MM-dd")
             }))
         }).then(data => {
             showSuccessMessage(ctx, "提交成功");

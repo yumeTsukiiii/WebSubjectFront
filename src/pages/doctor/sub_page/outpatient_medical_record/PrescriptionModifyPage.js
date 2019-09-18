@@ -306,7 +306,7 @@ const PrescriptionModifyPage = (props) => {
             .also(it => {
                 it.detail = [
                     ...it.detail,
-                    chosenDrug.map(drug => ({
+                    ...chosenDrug.map(drug => ({
                         id: drug.id,
                         price: drug.price, //药品价格
                         name: drug.name, //药品规格

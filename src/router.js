@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect, HashRouter } from "react-router-dom";
 import React from 'react';
 import LoginPage from './pages/login/LoginPage';
 import MedicalWorkerPageContainer from "./pages/medical_worker/MedicalWorkerPageContainer";
@@ -8,7 +8,7 @@ import PharmacyPage from "./pages/pharmacy/PharmacyPage";
 
 const GlobalRouter = (props) => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Switch>
                 <Route exact path={'/'} component={LoginPage}/>
                 <Route path={'/login'} component={LoginPage}/>
@@ -18,7 +18,7 @@ const GlobalRouter = (props) => {
                 <Route path={'/pharmacy'} component={PharmacyPage}/>
                 <Redirect to={'/'}/>
             </Switch>
-        </BrowserRouter>
+        </HashRouter>
     );
 };
 

@@ -72,7 +72,7 @@ const PharmacyPage = (props) => {
                         )
                     }
                     navigateDelay={100}
-                    header={<DefaultNavigatorHeader avatar={PharmacyAvatar}/>}/>
+                    header={<DefaultNavigatorHeader avatar={PharmacyAvatar} history={props.history}/>}/>
             </div>
         </Fade>
     );

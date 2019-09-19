@@ -97,7 +97,7 @@ const ChargeWorkerPage = (props) => {
                         )
                     }
                     navigateDelay={100}
-                    header={<DefaultNavigatorHeader avatar={ChargeWorkerAvatar}/>}/>
+                    header={<DefaultNavigatorHeader avatar={ChargeWorkerAvatar} history={props.history}/>}/>
             </div>
         </Fade>
     );

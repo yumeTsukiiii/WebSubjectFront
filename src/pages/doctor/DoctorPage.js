@@ -72,7 +72,7 @@ const DoctorPage = (props) => {
                         )
                     }
                     navigateDelay={100}
-                    header={<DefaultNavigatorHeader avatar={DoctorAvatar}/>}/>
+                    header={<DefaultNavigatorHeader avatar={DoctorAvatar} history={props.history}/>}/>
             </div>
         </Fade>
     );
